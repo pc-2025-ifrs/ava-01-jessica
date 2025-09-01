@@ -21,7 +21,7 @@ function mmc(num1, num2) {
   return null;
 }
 
-// Função MDC (sem Euclides, usando laço)
+// Função MDC
 function mdc(num1, num2) {
   if (typeof num1 !== "number" || typeof num2 !== "number") return null;
   
@@ -44,7 +44,7 @@ function mdc(num1, num2) {
   return maiorDivisor;
 }
 
-// ---------------- Testes ----------------
+// Testes 
 console.log("MMC (3,4):", mmc(3, 4));
 console.log("MMC (18,131):", mmc(18, 131));
 console.log("MMC (-3,-4):", mmc(-3, -4));
